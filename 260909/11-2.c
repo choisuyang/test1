@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    int res;
+    char ch;
+
+    while (1)
+    {
+        res = scanf("%c", &ch);
+        if(res == EOF) break;
+        printf("%d", ch);
+        /* code */
+    }
+
+    return 0;
+    
+}
